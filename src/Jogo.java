@@ -19,4 +19,9 @@ public class Jogo   {
     public void Encerrar(){
         System.out.println("Jogo " + nome + " encerado com sucesso.");
     }
+
+    // Método getter para obter o nome do jogo
+    public String getNome() {
+        return nome;
+    }
 }

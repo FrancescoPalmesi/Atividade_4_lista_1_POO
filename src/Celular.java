@@ -35,14 +35,14 @@ public class Celular {
     // Método para adicionar um jogo ao celular
     public void AdicionarJogo(Jogo jogo) {
         jogos.add(jogo);
-        System.out.println("Jogo " + jogo.nome + " adicionado ao celular " + codigo);
+        System.out.println("Jogo " + jogo.getNome() + " adicionado ao celular " + codigo);
     }
 
     // Método para listar todos os jogos
     public void ListarJogos() {
         System.out.println("Jogos instalados no celular " + codigo + ":");
         for (Jogo jogo : jogos) {
-            System.out.println("- " + jogo.nome);
+            System.out.println("- " + jogo.getNome());
         }
     }
 
